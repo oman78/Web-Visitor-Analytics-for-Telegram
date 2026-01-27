@@ -35,6 +35,7 @@ Scope: The tracking capability is limited to the provider's network information 
 
 
 2. Compatibility & Requirements
+   
 This is a Python-specific module. It is designed to work with:
 Flask (as demonstrated in app_snippet.py)
 Django
@@ -43,11 +44,13 @@ Note: This will not function on static HTML sites or PHP/Node.js without transla
 
 
 3. Educational Purposes Only
+   
 This project is developed for educational and portfolio purposes to demonstrate API integration and backend logic.
 Users are responsible for complying with local privacy laws (such as GDPR or CCPA) regarding the collection of IP data.
 Use this tool ethically and responsibly.
 
 
 🛡️ Security Best Practice
+
 [!IMPORTANT] Do not hardcode your actual Token and Chat ID when pushing to public repositories.
 Always use Environment Variables or placeholders as demonstrated in this repository to prevent unauthorized access to your Bot.

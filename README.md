@@ -48,4 +48,5 @@ Use this tool ethically and responsibly.
 
 
 🛡️ Security Best Practice
-[!IMPORTANT] Do not hardcode your actual Token and Chat ID when pushing to public repositories. Always use Environment Variables or placeholders as demonstrated in this repository to prevent unauthorized access to your Bot.
+[!IMPORTANT] Do not hardcode your actual Token and Chat ID when pushing to public repositories.
+Always use Environment Variables or placeholders as demonstrated in this repository to prevent unauthorized access to your Bot.

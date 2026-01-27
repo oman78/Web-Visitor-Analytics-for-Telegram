@@ -26,7 +26,8 @@ Paste the provided snippet into your main application file (e.g., `app.py`). Ens
 pip install requests
 ```
 
-⚠️ Important Disclaimers
+## ⚠️ Important Disclaimers
+
 1. Accuracy & Geolocation Privacy
 This tool fetches location data based on the visitor's IP Address provided by their ISP. Please be aware of the following:
 ISP Gateway: The detected location often represents the ISP's server location/Point of Presence, not the visitor's exact GPS coordinates.
@@ -50,7 +51,7 @@ Users are responsible for complying with local privacy laws (such as GDPR or CCP
 Use this tool ethically and responsibly.
 
 
-🛡️ Security Best Practice
+## 🛡️ Security Best Practice
 
 [!IMPORTANT] Do not hardcode your actual Token and Chat ID when pushing to public repositories.
 Always use Environment Variables or placeholders as demonstrated in this repository to prevent unauthorized access to your Bot.

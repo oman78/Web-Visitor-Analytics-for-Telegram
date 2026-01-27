@@ -29,11 +29,8 @@ pip install requests
 ## ⚠️ Important Disclaimers
 
 1. Accuracy & Geolocation Privacy
-This tool fetches location data based on the visitor's IP Address provided by their ISP. Please be aware of the following:
-ISP Gateway: The detected location often represents the ISP's server location/Point of Presence, not the visitor's exact GPS coordinates.
-Real-world Example: A visitor in Indramayu might be detected in Sumedang if their provider routes traffic through that regional node.
-Scope: The tracking capability is limited to the provider's network information level.
-
+   
+This tool identifies locations based on the ISP's network routing—representing the regional "Point of Presence" rather than exact GPS coordinates—which means a visitor in Indramayu might be detected in Sumedang depending on how their provider routes traffic at the network information level.
 
 2. Compatibility & Requirements
    

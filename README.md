@@ -1,6 +1,6 @@
 # Telegram-Integrated Visitor Tracker for Flask
 
-A lightweight, server-side monitoring module designed for Python web applications. This script enables real-time visitor notifications via Telegram Bot API, providing insights into visitor IP addresses, ISP, and approximate geographic locations.
+A lightweight, server-side monitoring module designed specifically for Python-based websites. This is not a standalone app; it must be integrated into your app.py or main.py to function. It enables real-time notifications via Telegram Bot API, providing insights into visitor ISP and regional location (based on the provider's network, not exact GPS).
 
 ## 🌟 Features
 * **Real-time Alerts:** Instant Telegram notifications upon page access.
@@ -28,11 +28,11 @@ pip install requests
 
 ## ⚠️ Important Disclaimers
 
-1. Accuracy & Geolocation Privacy
+### 1. Accuracy & Geolocation Privacy
    
 This tool identifies locations based on the ISP's network routing—representing the regional "Point of Presence" rather than exact GPS coordinates—which means a visitor in Indramayu might be detected in Sumedang depending on how their provider routes traffic at the network information level.
 
-2. Compatibility & Requirements
+### 2. Compatibility & Requirements
    
 This is a Python-specific module. It is designed to work with:
 Flask (as demonstrated in app_snippet.py)
@@ -41,7 +41,7 @@ Any Python backend environment.
 Note: This will not function on static HTML sites or PHP/Node.js without translating the logic into those respective languages.
 
 
-3. Educational Purposes Only
+### 3. Educational Purposes Only
    
 This project is developed for educational and portfolio purposes to demonstrate API integration and backend logic.
 Users are responsible for complying with local privacy laws (such as GDPR or CCPA) regarding the collection of IP data.

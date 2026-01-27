@@ -24,7 +24,7 @@ To use this module, you need a Telegram Bot:
 Paste the provided snippet into your main application file (e.g., `app.py`). Ensure you have the `requests` library installed:
 ```bash
 pip install requests
-'''
+```
 
 ⚠️ Important Disclaimers
 1. Accuracy & Geolocation Privacy

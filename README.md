@@ -2,18 +2,18 @@
 
 A lightweight, server-side monitoring module designed specifically for Python-based websites. This is not a standalone app; it must be integrated into your app.py or main.py to function. It enables real-time notifications via Telegram Bot API, providing insights into visitor ISP and regional location (based on the provider's network, not exact GPS).
 
-## 🌟 Features
+##  Features
 * **Real-time Alerts:** Instant Telegram notifications upon page access.
 * **Geolocation Insights:** Automatically fetches city, country, and ISP data using IP-API.
 * **Non-Blocking Logic:** Implemented with error handling to ensure the main web application remains functional even if the tracking API or Telegram is unreachable.
 * **Formal Reporting:** Structured notification format for professional monitoring.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Language:** Python
 * **Framework:** Flask / Django (Logic is portable to any Python-based backend)
 * **Libraries:** `requests`
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Telegram Bot Configuration
 To use this module, you need a Telegram Bot:
@@ -26,7 +26,7 @@ Paste the provided snippet into your main application file (e.g., `app.py`). Ens
 pip install requests
 ```
 
-## ⚠️ Important Disclaimers
+##  Important Disclaimers
 
 ### 1. Accuracy & Geolocation Privacy
    

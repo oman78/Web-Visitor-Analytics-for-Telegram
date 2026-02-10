@@ -42,15 +42,15 @@ def index():
     # notifikasi
     if geo:
         msg = (
-            f"🔔 *Notifikasi Kunjungan Baru*\n\n"
-            f"📍 *Lokasi:* {geo['city']}, {geo['country']}\n"
-            f"🏢 *ISP:* {geo['isp']}\n"
-            f"🌐 *IP Address:* `{ip_addr}`\n\n"
-            f"🔗 [Buka Google Maps](https://www.google.com/maps?q={geo['lat']},{geo['lon']})\n"
+            f" *Notifikasi Kunjungan Baru*\n\n"
+            f" *Lokasi:* {geo['city']}, {geo['country']}\n"
+            f" *ISP:* {geo['isp']}\n"
+            f" *IP Address:* `{ip_addr}`\n\n"
+            f" [Buka Google Maps](https://www.google.com/maps?q={geo['lat']},{geo['lon']})\n"
             f"---"
         )
     else:
-        msg = f"🔔 *Notifikasi Kunjungan Baru*\nIP: `{ip_addr}` (Lokasi tidak terdeteksi)"
+        msg = f" *Notifikasi Kunjungan Baru*\nIP: `{ip_addr}` (Lokasi tidak terdeteksi)"
 
     send_telegram_notif(msg)
 

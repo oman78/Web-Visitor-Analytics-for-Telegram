@@ -1,4 +1,4 @@
-# Telegram-Integrated Visitor Tracker for Flask
+# Web Visitor Analytics for Telegram
 
 A lightweight, server-side monitoring module designed specifically for Python-based websites. This is not a standalone app; it must be integrated into your app.py or main.py to function. It enables real-time notifications via Telegram Bot API, providing insights into visitor ISP and regional location (based on the provider's network, not exact GPS).
 

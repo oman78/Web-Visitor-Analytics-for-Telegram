@@ -48,7 +48,7 @@ This is a Python-specific module. It is designed to work with:
 Flask (as demonstrated in app_snippet.py)
 Django
 Any Python backend environment.
-Note: This will not function on static HTML sites or PHP/Node.js without translating the logic into those respective languages.
+> **Note:** This will not function on static HTML sites or PHP/Node.js without translating the logic into those respective languages.
 
 
 ### 3. Educational Purposes Only

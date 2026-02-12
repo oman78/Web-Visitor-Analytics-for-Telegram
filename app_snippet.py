@@ -6,7 +6,7 @@ CHAT_ID = "YOUR_CHAT_ID"
 def get_location_info(ip):
     try:
         # Hit IP-API buat ambil geo data
-        response = requests.get(f"http://ip-api.com/json/{ip}").json()
+        response = requests.get(f"http://ip-api.com/json/{ip}", timeout=5).json()
         if response['status'] == 'success':
             return {
                 "city": response.get("city", "Unknown"),
